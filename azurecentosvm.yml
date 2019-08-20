@@ -12,7 +12,7 @@ steps:
   # Actual script needed for you.
   - script: |
         ls -ltr 
-        az login --service-principal --username "75035e0c-4f46-4378-bf42-83e5b2326df9"  --password "115826a5-46ff-4a28-9e0c-cdbd601ddc5b" --tenant "20f3b949-2903-4d24-9d01-ad8df676e397"
+         az login --service-principal --username "cff23a52-40b5-40bc-8eb6-1c584dcf5253"  --password "ee3bb0c3-e39c-453e-820e-e2c91eb245a1" --tenant "20f3b949-2903-4d24-9d01-ad8df676e397"
         # Update for your admin password
         AdminPassword=Nareshbitla_1205
         rgName=myResourceGroup7
