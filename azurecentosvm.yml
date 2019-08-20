@@ -12,9 +12,9 @@ steps:
   # Actual script needed for you.
   - script: |
         ls -ltr 
-        az login --service-principal --username "3d587273-dcac-47f1-b714-72f244c67c52"  --password "8ec3a20c-e55e-4341-abec-28d57eab3be1" --tenant "59b2865a-7fb8-4ccb-ab68-72cbca88fc48"
+        az login --service-principal --username "75035e0c-4f46-4378-bf42-83e5b2326df9"  --password "115826a5-46ff-4a28-9e0c-cdbd601ddc5b" --tenant "20f3b949-2903-4d24-9d01-ad8df676e397"
         # Update for your admin password
-        AdminPassword=MLK123ATL!!ffD$
+        AdminPassword=Nareshbitla_1205
         rgName=myResourceGroup7
         locName=westeurope
         vnetName=myVnet7
@@ -23,7 +23,7 @@ steps:
         nsgName=myNetworkSecurityGroup7
         nicName=myNic7
         vmName=myVM7
-        userName=clouduser
+        userName=azureuser
         az group create --name $rgName --location $locName
         az network vnet create --resource-group $rgName --name $vnetName --subnet-name $subnetName
         az network public-ip create --resource-group $rgName --name $publicIP
